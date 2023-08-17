@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portfolio</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Paper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+    <!-- My Styles -->
+    <link rel="stylesheet" href="./resources/styles/styles.css" />
+    <link rel="stylesheet" href="./resources/styles/pages/home.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="border fixed split-nav">
+      <div class="nav-brand">
+        <h3><a href="#">Gurleen</a></h3>
+      </div>
+      <div class="collapsible">
+        <input id="collapsible1" type="checkbox" name="collapsible1" />
+        <label for="collapsible1">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </label>
+        <div class="collapsible-body">
+          <ul class="inline">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Word</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main -->
+    <main class="main">
+      <!-- Header Section -->
+      <div class="home__header">
+        <h1>I'm Gurleen</h1>
+        <p>Developer | Designer | Copywriter</p>
+      </div>
+      <!-- Brief Work Section -->
+      <div class="home__work container">
+        <h2>Projects</h2>
+        <div class="cards">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Personal Budget Tracker</h4>
+              <h5 class="card-subtitle">Empower Your Financial Planning</h5>
+              <p class="card-text">
+                A web-based application to help users manage their finances effectively. It allows
+                users to input income, expenses, and savings goals, providing visualizations and
+                summaries to track financial health.
+              </p>
+              <a class="card-link" href="#">Projects -></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">TaskMaster: To-Do List App</h4>
+              <h5 class="card-subtitle">Organize, Prioritize, Accomplish</h5>
+              <p class="card-text">
+                An intuitive mobile app for creating and managing to-do lists. Users can prioritize
+                tasks, set due dates, and categorize tasks into different projects, ensuring they
+                stay organized and productive.
+              </p>
+              <a class="card-link" href="#">Projects -></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Recipe Roulette</h4>
+              <h5 class="card-subtitle">Culinary Adventures Await</h5>
+              <p class="card-text">
+                An interactive platform that generates random recipes based on user-selected
+                preferences such as cuisine type, dietary restrictions, and available ingredients.
+                Users can discover new dishes and experiment in the kitchen.
+              </p>
+              <a class="card-link" href="#">First link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Brief Education -->
+      <div class="home__eduction container">
+        <h2>Education</h2>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Media</h4>
+            <h5 class="card-subtitle">Algonquin College</h5>
+            <p class="card-text">
+              A community-driven website connecting language learners worldwide.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">Algonquin College ©2023</footer>
+    <!-- Script -->
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

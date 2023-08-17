@@ -1,0 +1,34 @@
+/* HOME HEADER */
+.home__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  min-height: 70vh;
+  text-align: center;
+}
+.home__header h1 {
+  margin: 0;
+}
+.home__header p {
+  font-weight: bold;
+}
+
+.home__work .cards {
+  display: grid;
+  grid-gap: 20px;
+  margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 440px) {
+  .home__header h1 {
+    font-size: 2.4em;
+  }
+  .home__header p {
+    font-size: 0.8em;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+}

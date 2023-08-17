@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portfolio</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Paper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+    <!-- My Styles -->
+    <link rel="stylesheet" href="./resources/styles/styles.css" />
+    <link rel="stylesheet" href="./resources/styles/pages/projects.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="border fixed split-nav">
+      <div class="nav-brand">
+        <h3><a href="#">Gurleen</a></h3>
+      </div>
+      <div class="collapsible">
+        <input id="collapsible1" type="checkbox" name="collapsible1" />
+        <label for="collapsible1">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </label>
+        <div class="collapsible-body">
+          <ul class="inline">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main -->
+    <main class="main">
+      <div class="container">
+        <h1>Works</h1>
+      </div>
+      <div class="project__cards container">
+        <div class="flex-spaces tabs">
+          <input id="tab1" type="radio" name="tabs" checked />
+          <label for="tab1">Web Designs</label>
+
+          <input id="tab2" type="radio" name="tabs" />
+          <label for="tab2">Photography</label>
+
+          <input id="tab3" type="radio" name="tabs" />
+          <label for="tab3">Web Apps</label>
+
+          <div class="content" id="content1">
+            <p>Bacon ipsum dolor sit amet beef venison beef ribs kielbasa...</p>
+            <p>Brisket meatball turkey short loin boudin leberkas meatloaf...</p>
+          </div>
+          <div class="content" id="content2">
+            <p>Bacon ipsum dolor sit amet landjaeger sausage brisket...</p>
+          </div>
+          <div class="content" id="content3">
+            <p>Bacon ipsum dolor sit amet beef venison beef ribs kielbasa...</p>
+            <p>Brisket meatball turkey short loin boudin leberkas meatloaf...</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">Copyright: Algonquin ©2023</footer>
+    <!-- Script -->
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

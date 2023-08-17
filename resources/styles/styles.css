@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  box-sizing: inherit;
+  line-height: 1.5;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+/* LAYOUT */
+body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+    url('../img/pattern.png');
+  background-attachment: fixed;
+}
+
+main {
+  padding-top: 69px;
+  padding-bottom: 100px;
+}
+/* COMMON ELEMENTS */
+.footer {
+  border-top: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}

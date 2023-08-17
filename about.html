@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portfolio</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Paper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+    <!-- My Styles -->
+    <link rel="stylesheet" href="./resources/styles/styles.css" />
+    <link rel="stylesheet" href="./resources/styles/pages/about.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="border fixed split-nav">
+      <div class="nav-brand">
+        <h3><a href="#">Gurleen</a></h3>
+      </div>
+      <div class="collapsible">
+        <input id="collapsible1" type="checkbox" name="collapsible1" />
+        <label for="collapsible1">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </label>
+        <div class="collapsible-body">
+          <ul class="inline">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main -->
+    <main class="main">
+      <!-- Header Section -->
+      <div class="about__header">
+        <div class="about__header__img">
+          <picture>
+            <img
+              sizes="(max-width: 1400px) 100vw, 1400px"
+              srcset="
+                ./resources/img/felicity-lynn-g_CYfjiaZZY-unsplash_dfaqaq_c_scale,w_200.jpg   200w,
+                ./resources/img/felicity-lynn-g_CYfjiaZZY-unsplash_dfaqaq_c_scale,w_777.jpg   777w,
+                ./resources/img/felicity-lynn-g_CYfjiaZZY-unsplash_dfaqaq_c_scale,w_1044.jpg 1044w,
+                ./resources/img/felicity-lynn-g_CYfjiaZZY-unsplash_dfaqaq_c_scale,w_1400.jpg 1400w
+              "
+              src="./resources/img/felicity-lynn-g_CYfjiaZZY-unsplash_dfaqaq_c_scale,w_1400.jpg"
+              alt=""
+            />
+          </picture>
+        </div>
+        <h1>I'm Gurleen</h1>
+        <p>Developer | Designer | Copywriter</p>
+      </div>
+      <!-- INTRODUCTION -->
+      <div class="about__info container">
+        <h2>About Me</h2>
+        <p>
+          Hello there! I'm Gurleen, a passionate and creative individual with a diverse skill set
+          that spans the realms of web development, design, and photography. With an insatiable
+          curiosity and a keen eye for detail, I've found my true calling in crafting digital
+          experiences, visual aesthetics, and capturing moments through the lens.
+        </p>
+      </div>
+      <!-- EDUCATION -->
+      <div class="about__eduction container">
+        <h2>Education History</h2>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Media</h4>
+            <h5 class="card-subtitle">Algonquin College</h5>
+            <p class="card-text">
+              As a web developer, I thrive on turning ideas into interactive and user-friendly
+              websites. My journey began with a fascination for coding, and over the years, I've
+              honed my skills in HTML, CSS, JavaScript, and various frameworks. I'm dedicated to
+              creating seamless online experiences that not only look stunning but also function
+              flawlessly. From responsive designs to intuitive user interfaces, I'm committed to
+              bringing visions to life in the digital landscape.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- EXPERIENCE -->
+      <div class="about__experience container">
+        <h2>Experience</h2>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Web Developer and Designer</h4>
+            <h5 class="card-subtitle">ABC Web Solutions</h5>
+            <p class="card-text">
+              At ABC Web Solutions, I had the privilege to blend my expertise as both a web
+              developer and a designer, creating visually stunning and highly functional websites
+              that provided seamless user experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">Copyright: Algonquin ©2023</footer>
+    <!-- Script -->
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
